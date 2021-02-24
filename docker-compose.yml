@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  redis-primo:
+    image: redis
+    ports:
+      - "8101:6379"
